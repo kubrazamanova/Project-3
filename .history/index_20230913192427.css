@@ -9,6 +9,7 @@
   min-height: 100vh;
   background-color: #fdf0e9;
   display: flex;
+  align-items: center;
 }
 .container h1 {
   color: var(--Text_Dark_Accent, #ef6d58);
@@ -57,7 +58,6 @@
 
 .container ul{
   margin-left: 130px;
-  margin-top: 40px;
 }
 .container ul li {
   display: flex;

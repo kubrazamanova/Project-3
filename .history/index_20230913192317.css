@@ -55,10 +55,7 @@
   text-decoration: none;
 }
 
-.container ul{
-  margin-left: 130px;
-  margin-top: 40px;
-}
+
 .container ul li {
   display: flex;
   align-items: center;

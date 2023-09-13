@@ -55,18 +55,22 @@
   text-decoration: none;
 }
 
-.container ul{
-  margin-left: 130px;
-  margin-top: 40px;
+.container ul {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
 }
-.container ul li {
+
+.container  ul li {
   display: flex;
-  align-items: center;
+    align-items: center;
   list-style-type: none;
 }
 
-.container ul li span {
-  margin-right: 66px;
+.container  .lesson ul li span {
+    margin-right: 66px;
   color: #391400;
   font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
@@ -86,3 +90,4 @@
   font-weight: 700;
   line-height: 32px;
 }
+
